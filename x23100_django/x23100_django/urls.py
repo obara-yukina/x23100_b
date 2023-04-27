@@ -4,7 +4,7 @@ from django.urls import include, path
 urlpatterns = [
     path('admin/', admin.site.urls),
     #URLがusersの場合、myappのurls.pyを呼び出す
-    path('/', include('myapp.urls')),
+    path('users/', include('myapp.urls')),
 ]
 
 """
